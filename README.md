@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Responsive website is suppose to provide optimal viewing experience no matter what type of device the user is seeing it on. Reponsive design focuses on a more fluid layout.
+Adaptive website is different from responsive because there isn't just one layout that will always change. There are several distinct layouts for mulitple screen sizes; layout used depends on the screen size. 
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first means the website is created for mobile screens as the main focus and then tailored for desktop view. Same concent if you have a desktop first website.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+Font size 62.5% makes font equivalent to 10px, this allows the user to do simple math when using rem. So if you want font to be 16 px, you would use 1.6 rem, this is meant for simplicity. 
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing provides a more effiecient way of using css. It allows you to create customized variables and mixins to stop over repeating things in CSS when possible. It also makes it easier to work in a team and provide maintance for a website, as different .less pages can be assigned to different individuals to customize not having to all work on the same css file at the same time. 
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concept is using nesting in css, it makes things more organized and easier to find. I have trouble figuring out the wording for some variables sometimes, but i have improved within the last few days.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
