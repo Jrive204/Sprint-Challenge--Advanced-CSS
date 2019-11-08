@@ -167,7 +167,7 @@ nav {
 @media (max-width: 500px) {
   .container {
     max-width: 800px;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
   }
 }
@@ -206,6 +206,9 @@ nav {
   text-decoration: none;
 }
 footer {
+  max-width: 800px;
+  width: 80%;
+  margin: 0 auto;
   color: #22283B;
   background: #f4f4f4;
   padding: 20px 0;
@@ -214,6 +217,13 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 500px) {
+  footer {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 .home .intro .hdrimg img {
   max-width: 100%;
