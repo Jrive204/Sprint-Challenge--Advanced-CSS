@@ -162,24 +162,30 @@ nav {
 }
 .container {
   max-width: 800px;
-  width: 100%;
+  width: 80%;
   margin: 0 auto;
 }
 .topsec {
   display: flex;
   flex-wrap: wrap;
   background-color: #F6F6F6;
-  max-width: 800px;
   width: 100%;
   margin: 0 auto;
+  text-align: center;
 }
 .topsec .title {
+  padding-top: 1.4%;
   width: 100%;
-  padding: 15px;
 }
 .topsec .navcont {
   width: 100%;
   padding: 15px;
+}
+.topsec .navcont nav {
+  margin: 0 auto;
+  width: 35%;
+  display: flex;
+  justify-content: space-around;
 }
 footer {
   color: #22283B;
