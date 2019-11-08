@@ -133,8 +133,7 @@ html {
   font-size: 62.5%;
 }
 html,
-body,
-nav {
+body {
   font-family: 'Ubuntu', sans-serif;
   color: #5E6164;
 }
@@ -179,14 +178,19 @@ nav {
 }
 .topsec .navcont {
   margin: 0 auto;
-  width: 90%;
+  width: 80%;
   padding: 15px;
 }
 .topsec .navcont nav {
+  font-family: 'Ubuntu', sans-serif;
   margin: 0 auto;
   width: 50%;
   display: flex;
   justify-content: space-between;
+}
+.topsec .navcont nav a {
+  color: #454A59;
+  text-decoration: none;
 }
 footer {
   color: #22283B;
@@ -242,6 +246,15 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .btn {
+  display: block;
+  background-color: #22283A;
+  width: 120px;
+  height: 35px;
+  font-size: 2rem;
+  border-radius: 10px;
+  color: white;
 }
 .home .walk .walk-img {
   width: 46%;
