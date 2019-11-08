@@ -2,7 +2,9 @@
 
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <title>SpaceWalkers</title>
 
@@ -17,10 +19,29 @@
 <body>
 
  <!-- navigation code here -->
+ <section class="topsec">
+   <div class="title">
+     <h1>SpaceWalkers</h1>
+   </div>
+  <div class="navcont">
+    <nav>
+      <a href=""><span>Home</span></a>
+      <a href="">About us</a>
+      <a href="">Blog</a>
+      <a href="">Contact</a>
+      <a href="">Sign in</a>
+    </nav>
+  </div>
+
+ </section>
 
   <div class="container home">
 
     <header class="intro">
+      <div class="hdrimg">
+        <img src="/img/main-header.png">
+      </div>
+
        <!-- image code here -->
 
       <h2>Lift Off</h2>
@@ -30,8 +51,8 @@
 
     <section class="space-images">
         <img src="img/blast.png" class="blast" alt="Rocket blasting off">
-        <img src="img/sky.png" class="sky" alt="Space sky image">
-        <img src="img/launch.png" class="launch" alt="Launching rocket">
+        <img class="phonenon" src="img/sky.png" class="sky" alt="Space sky image">
+        <img class="phonenon" src="img/launch.png" class="launch" alt="Launching rocket">
     </section>
    
     <section class="visit-planets">
@@ -51,9 +72,9 @@
       
         <p>Suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.</p>
       
-        <div class="btn">
+        <button class="btn">
           Sign Up
-        </div>
+        </button>
       </div>
       
       <div class="walk-img">
@@ -61,11 +82,11 @@
       </div>
 
     </section>
-
-    <footer>
-      <p>Copyright SpaceWalkers 2018</p>
-    </footer>
-
+    
   </div>
+  
+      <footer>
+        <p>Copyright SpaceWalkers 2018</p>
+      </footer>
 </body>
 </html>
