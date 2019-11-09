@@ -400,3 +400,16 @@ footer {
   text-align: center;
   width: 100%;
 }
+.sign-in-container .signin-button {
+  display: block;
+  background-color: #22283A;
+  width: 120px;
+  height: 35px;
+  font-size: 2rem;
+  border-radius: 10px;
+  color: white;
+}
+.sign-in-container .signin-button:hover {
+  color: blue;
+  background-color: maroon;
+}
