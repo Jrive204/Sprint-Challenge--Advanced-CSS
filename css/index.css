@@ -1,3 +1,11 @@
+@keyframes pulse {
+  0% {
+    background-color: ;
+  }
+  100% {
+    background-color: #b10c00;
+  }
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -179,6 +187,9 @@ nav {
   margin: 0 auto;
   text-align: center;
 }
+.topsec a {
+  text-decoration: none;
+}
 .topsec .title {
   padding-top: 1.4%;
   width: 100%;
@@ -306,6 +317,10 @@ footer {
   border-radius: 10px;
   color: white;
 }
+.home .walk .btn:hover {
+  color: blue;
+  background-color: maroon;
+}
 @media (max-width: 500px) {
   .home .walk .btn {
     margin: 0 auto;
@@ -313,10 +328,6 @@ footer {
     height: 75px;
     margin-bottom: 3% ;
   }
-}
-.home .walk .btn:hover {
-  color: blue;
-  background-color: maroon;
 }
 .home .walk .walk-img {
   width: 46%;
@@ -331,4 +342,61 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+.bg {
+  background-image: url('/img/sign-in-bckimg.jpg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sign-in-container {
+  width: 100%;
+  display: flex;
+  height: 80vh;
+  color: whitesmoke;
+  max-width: 800px;
+  width: 80%;
+  margin: 0 auto;
+}
+.sign-in-container .login-title {
+  height: 72%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+.sign-in-container .login-title h2 {
+  color: whitesmoke;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.sign-in-container .login-title .signupspan {
+  text-decoration: none;
+  color: #18bcfd;
+  animation: pulse 5s infinite;
+}
+.sign-in-container .login-title a {
+  text-decoration: none;
+}
+.sign-in-container .login-title .noAccount-p {
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
+}
+.sign-in-container .formfield {
+  width: 55%;
+}
+.sign-in-container .loginform {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 15px;
+}
+.sign-in-container input {
+  text-align: center;
+  width: 100%;
 }

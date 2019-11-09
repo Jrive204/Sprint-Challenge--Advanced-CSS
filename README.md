@@ -39,7 +39,7 @@ Adaptive website is different from responsive because there isn't just one layou
 
 2. Describe what it means to be mobile first vs desktop first.
 
-Mobile first means the website is created for mobile screens as the main focus and then tailored for desktop view. Same concent if you have a desktop first website.
+Mobile first means the website is created for mobile screens as the main focus and then tailored for desktop view. Same concept if you have a desktop first website.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
